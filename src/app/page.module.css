@@ -30,3 +30,9 @@
     border: 1px solid black;
     padding: 4px;
 }
+
+.product img{
+    width: auto;
+    height: 100px;
+    border-radius: 50px;
+}

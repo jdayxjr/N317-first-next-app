@@ -48,11 +48,19 @@ export default function Home() {
       <p>array of farm animals: {farmAnimals.join(", ")}</p>
       <p>Person: {JSON.stringify(person)}</p>
       <p className={homeStyles.callout}>this is a very sunny day here in RainyVille it has been the most sunniest is has been this week so far, signing off {myName}</p>
+
       <button onClick={openModal}>View Sun</button>
 
-      <div>
+      <div className={homeStyles.product}>
         <h3>tofu</h3>
         <p>this is defineitely tofu</p>
+        <img src="https://live.staticflickr.com/7276/6984161324_a5b38c6ee2_z.jpg" alt="real picture of tofu"></img>
+      </div>
+
+      <div className={homeStyles.product}>
+        <h3>tofu</h3>
+        <p>this is defineitely tofu</p>
+        <img src="https://live.staticflickr.com/7276/6984161324_a5b38c6ee2_z.jpg" alt="real picture of tofu"></img>
 
       </div>
     </main>
