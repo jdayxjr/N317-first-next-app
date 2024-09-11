@@ -51,16 +51,24 @@ export default function Home() {
 
       <button onClick={openModal}>View Sun</button>
 
-      <div className={homeStyles.product}>
-        <h3>tofu</h3>
-        <p>this is defineitely tofu</p>
-        <img src="https://live.staticflickr.com/7276/6984161324_a5b38c6ee2_z.jpg" alt="real picture of tofu"></img>
-      </div>
 
-      <div className={homeStyles.product}>
-        <h3>tofu</h3>
-        <p>this is defineitely tofu</p>
-        <img src="https://live.staticflickr.com/7276/6984161324_a5b38c6ee2_z.jpg" alt="real picture of tofu"></img>
+      <div className={homeStyles.productsList}>
+        <div className={homeStyles.product}>
+          <h3>tofu</h3>
+          <p>this is defineitely tofu</p>
+          <img src="https://live.staticflickr.com/7276/6984161324_a5b38c6ee2_z.jpg" alt="real picture of tofu"></img>
+        </div>
+        <div className={homeStyles.product}>
+          <h3>waffles</h3>
+          <p>this is defineitely waffles</p>
+          <img src="https://live.staticflickr.com/4009/5076305577_5a5fed6a73_b.jpg"></img>
+        </div>
+        <div className={homeStyles.product}>
+          <h3>chop cheese</h3>
+          <p>this is defineitely chop cheese</p>
+          <img src="https://upload.wikimedia.org/wikipedia/en/7/79/Chopped_cheese_Crotona_Bronx.jpg"></img>
+
+        </div>
 
       </div>
     </main>
