@@ -1,0 +1,9 @@
+.interestList{
+    margin-left: 10px;
+    
+    }
+
+    .interestList li{
+        margin-left: 100px;
+        list-style-image: url('/dog.jpg');
+    }
