@@ -33,24 +33,30 @@ export default function Home() {
 
   const itsTuesday = true;
   const showNull = null;
+  return (
+    <main>
+      <nav className={homeStyles.homeNav}>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
+        </ul>
+      </nav>
+      <h1 style={headerStyle}>Next.js App</h1>
+      <p>null: {String(null)}</p>
+      <p>is it tuesday?: {String(itsTuesday)}</p>
+      <p>array of farm animals: {farmAnimals.join(", ")}</p>
+      <p>Person: {JSON.stringify(person)}</p>
+      <p className={homeStyles.callout}>this is a very sunny day here in RainyVille it has been the most sunniest is has been this week so far, signing off {myName}</p>
+      <button onClick={openModal}>View Sun</button>
 
-  <main>
-    <nav className={homeStyles.homeNav}>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Contact</a></li>
-      </ul>
-    </nav>
-    <h1 style={headerStyle}>Next.js App</h1>
-    <p>null: {String(null)}</p>
-    <p>is it tuesday?: {String(itsTuesday)}</p>
-    <p>array of farm animals: {farmAnimals.join(", ")}</p>
-    <p>Person: {JSON.stringify(person)}</p>
-    <p className={homeStyles.callout}>this is a very sunny day here in RainyVille it has been the most sunniest is has been this week so far, signing off {myName}</p>
-    <button onClick={openModal}>View Sun</button>
-  </main>
+      <div>
+        <h3>tofu</h3>
+        <p>this is defineitely tofu</p>
 
+      </div>
+    </main>
+  );
 
 
 }
